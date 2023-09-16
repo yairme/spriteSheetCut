@@ -1,0 +1,862 @@
+{
+	"frames": {
+		"hit_aniamtion_00000.png": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00001.png": {
+			"frame": {
+				"x": 68,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00002.png": {
+			"frame": {
+				"x": 136,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00003.png": {
+			"frame": {
+				"x": 204,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00004.png": {
+			"frame": {
+				"x": 272,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00005.png": {
+			"frame": {
+				"x": 340,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00006.png": {
+			"frame": {
+				"x": 408,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00007.png": {
+			"frame": {
+				"x": 408,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00008.png": {
+			"frame": {
+				"x": 408,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"hit_aniamtion_00009.png": {
+			"frame": {
+				"x": 408,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00000.png": {
+			"frame": {
+				"x": 476,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00001.png": {
+			"frame": {
+				"x": 544,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00002.png": {
+			"frame": {
+				"x": 612,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00003.png": {
+			"frame": {
+				"x": 680,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00004.png": {
+			"frame": {
+				"x": 748,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00005.png": {
+			"frame": {
+				"x": 816,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00006.png": {
+			"frame": {
+				"x": 0,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00007.png": {
+			"frame": {
+				"x": 68,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00008.png": {
+			"frame": {
+				"x": 136,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00009.png": {
+			"frame": {
+				"x": 204,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00010.png": {
+			"frame": {
+				"x": 272,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00011.png": {
+			"frame": {
+				"x": 340,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00012.png": {
+			"frame": {
+				"x": 408,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00013.png": {
+			"frame": {
+				"x": 476,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00014.png": {
+			"frame": {
+				"x": 544,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00015.png": {
+			"frame": {
+				"x": 612,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00016.png": {
+			"frame": {
+				"x": 680,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00017.png": {
+			"frame": {
+				"x": 748,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00018.png": {
+			"frame": {
+				"x": 816,
+				"y": 90,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00019.png": {
+			"frame": {
+				"x": 0,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00020.png": {
+			"frame": {
+				"x": 68,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00021.png": {
+			"frame": {
+				"x": 136,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00022.png": {
+			"frame": {
+				"x": 204,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00023.png": {
+			"frame": {
+				"x": 272,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00024.png": {
+			"frame": {
+				"x": 340,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00025.png": {
+			"frame": {
+				"x": 408,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00026.png": {
+			"frame": {
+				"x": 476,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00027.png": {
+			"frame": {
+				"x": 544,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00028.png": {
+			"frame": {
+				"x": 612,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		},
+		"idle_animation_00029.png": {
+			"frame": {
+				"x": 680,
+				"y": 180,
+				"w": 68,
+				"h": 90
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 90
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 90
+			}
+		}
+	},
+	"animations": {
+		"hit_aniamtion": [
+			"hit_aniamtion_00000.png",
+			"hit_aniamtion_00001.png",
+			"hit_aniamtion_00002.png",
+			"hit_aniamtion_00003.png",
+			"hit_aniamtion_00004.png",
+			"hit_aniamtion_00005.png",
+			"hit_aniamtion_00006.png",
+			"hit_aniamtion_00007.png",
+			"hit_aniamtion_00008.png",
+			"hit_aniamtion_00009.png"
+		],
+		"idle_animation": [
+			"idle_animation_00000.png",
+			"idle_animation_00001.png",
+			"idle_animation_00002.png",
+			"idle_animation_00003.png",
+			"idle_animation_00004.png",
+			"idle_animation_00005.png",
+			"idle_animation_00006.png",
+			"idle_animation_00007.png",
+			"idle_animation_00008.png",
+			"idle_animation_00009.png",
+			"idle_animation_00010.png",
+			"idle_animation_00011.png",
+			"idle_animation_00012.png",
+			"idle_animation_00013.png",
+			"idle_animation_00014.png",
+			"idle_animation_00015.png",
+			"idle_animation_00016.png",
+			"idle_animation_00017.png",
+			"idle_animation_00018.png",
+			"idle_animation_00019.png",
+			"idle_animation_00020.png",
+			"idle_animation_00021.png",
+			"idle_animation_00022.png",
+			"idle_animation_00023.png",
+			"idle_animation_00024.png",
+			"idle_animation_00025.png",
+			"idle_animation_00026.png",
+			"idle_animation_00027.png",
+			"idle_animation_00028.png",
+			"idle_animation_00029.png"
+		]
+	},
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "buff_spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 884,
+			"h": 270
+		},
+		"scale": "0.45",
+		"smartupdate": "$TexturePacker:SmartUpdate:8ab88bb008e761cab1bb2f7e7ac5817f:2a2d2d58fcda92864e97703ec66a0ce4:2287b79a25c3a5b53972cb7ce478c73e$"
+	}
+}
