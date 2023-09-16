@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:path/path.dart' as path;
-
+import 'package:texture_packer/texture_packer.dart';
 import 'package:image/image.dart' as img;
 
 void main(List<String> args) async {
