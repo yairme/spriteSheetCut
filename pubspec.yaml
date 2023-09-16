@@ -1,0 +1,22 @@
+name: sprite_sheet_cut
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.0.5
+
+# Add regular dependencies here.
+dependencies:
+  image: ^4.0.17
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+
+texture_packer:
+  git:
+    url: git@github.com:dgs-games-builder/game-toolkit.git
+    path: packages/texture_packer
+    ref: 21f47ba74dcfd07a82000e97c86dbfc84aa6d127
