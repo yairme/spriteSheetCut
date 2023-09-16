@@ -22,16 +22,24 @@ void main(List<String> args) async {
   final spritesheet = TexturePackerSpritesheet.fromMap(json);
 
   for (var frame in spritesheet.frames) {
+    var x = frame.x.toInt();
+    var y = frame.y.toInt();
+    var rotateImage = image;
+    if (frame.rotated == true) {
+      x = -frame.y.toInt();
+      y = frame.x.toInt();
+      rotateImage = img.copyRotate(image, angle: -90);
+    }
     final frameImage = img.copyCrop(
-      image,
-      x: frame.x.toInt(),
-      y: frame.y.toInt(),
+      rotateImage,
+      x: x,
+      y: y,
       width: frame.width.toInt(),
       height: frame.height.toInt(),
     );
 
     saveFrame(
-      filename: '$outputFolder/${frame.name}',
+      filename: path.normalize('$outputFolder/${frame.name}'),
       imageSlice: frameImage,
     );
   }
