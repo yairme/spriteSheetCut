@@ -10,8 +10,8 @@ void main(List<String> args) async {
   print(imageInputFileName);
   final jsonInputFileName = args[1];
   print(jsonInputFileName);
-  final outputFileName = args[2];
-  print(outputFileName);
+  final outputFolder = args[2];
+  print(outputFolder);
 
   final image = await loadImage(
     filename: imageInputFileName,
@@ -19,14 +19,20 @@ void main(List<String> args) async {
   final json = await loadJson(
     filename: jsonInputFileName,
   );
+  final spritesheet = TexturePackerSpritesheet.fromMap(json);
 
-  //Do something with image here by looking at the json
+  for (var frame in spritesheet.frames) {
+    final frameImage = img.copyCrop(
+      image,
+      x: frame.x.toInt(),
+      y: frame.y.toInt(),
+      width: frame.width.toInt(),
+      height: frame.height.toInt(),
+    );
 
-  int slices = 1;
-  for (int i = 0; i < slices; i++) {
-    saveImageSlice(
-      filename: outputFileName,
-      imageSlice: image,
+    saveFrame(
+      filename: '$outputFolder/${frame.name}',
+      imageSlice: frameImage,
     );
   }
 }
@@ -58,7 +64,7 @@ Future<Map<String, dynamic>> loadJson({
   return json.decode(jsonString);
 }
 
-Future<void> saveImageSlice({
+Future<void> saveFrame({
   required String filename,
   required img.Image imageSlice,
 }) async {
