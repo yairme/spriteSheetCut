@@ -24,19 +24,26 @@ void main(List<String> args) async {
   for (var frame in spritesheet.frames) {
     var x = frame.x.toInt();
     var y = frame.y.toInt();
-    var rotateImage = image;
+
+    var width = frame.width.toInt();
+    var height = frame.height.toInt();
+
     if (frame.rotated == true) {
-      x = -frame.y.toInt();
-      y = frame.x.toInt();
-      rotateImage = img.copyRotate(image, angle: -90);
+      width = height;
+      height = width;
     }
-    final frameImage = img.copyCrop(
-      rotateImage,
+
+    var frameImage = img.copyCrop(
+      image,
       x: x,
       y: y,
-      width: frame.width.toInt(),
-      height: frame.height.toInt(),
+      width: width,
+      height: height,
     );
+
+    if (frame.rotated == true) {
+      frameImage = img.copyRotate(frameImage, angle: -90);
+    }
 
     saveFrame(
       filename: path.normalize('$outputFolder/${frame.name}'),
